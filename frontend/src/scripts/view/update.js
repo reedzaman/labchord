@@ -1,6 +1,4 @@
-let typing = {};
-
-function updateTyping(){
+function updateTyping(typing){
     let typingInd = document.getElementsByClassName('typing-indicator')[0];
     let typingArr = Object.values(typing);
     typingArr = typingArr.map(item => {
