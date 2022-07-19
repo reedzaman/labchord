@@ -37,6 +37,17 @@ function updateTyping(typing){
     
 }
 
+function toggleTheme(){
+    let themeIcon = document.getElementById('themeIcon');
+    let body = document.getElementsByTagName('body')[0];
+
+    body.classList.toggle('dark');
+    if(themeIcon.innerText === 'light_mode')
+        themeIcon.innerText = 'dark_mode'
+    else themeIcon.innerText = 'light_mode';
+}
+
 export {
-    typing
+    typing,
+    toggleTheme
 }
