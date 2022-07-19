@@ -10,6 +10,61 @@ function addNotification(msg){
     }
 }
 
+
+function addMsg(msgData, name, id, type){
+
+    if(document.getElementsByClassName('main-box')[0].style.display === 'flex'){
+        let msgBox = document.getElementsByClassName('msg-box')[0];
+
+        let ownerName = document.createElement('h1');
+        ownerName.classList.add('owner-name');
+        if(lastMsgSender !== id) ownerName.innerText = name;
+
+        let ownerPhotoImage = document.createElement('div');
+        ownerPhotoImage.classList.add('owner-photo-image');
+        if(lastMsgSender !== id) ownerPhotoImage.style.backgroundImage = `url('https://icotar.com/avatar/${name.replace(/ /g, "+")}')`;
+
+        let ownerPhoto = document.createElement('div');
+        ownerPhoto.classList.add('owner-photo');
+        ownerPhoto.appendChild(ownerPhotoImage);
+
+        let msgContent = document.createElement('div');
+        msgContent.classList.add('msg-content');
+
+        if(type === 'text'){
+
+            let msgText = document.createElement('div');
+            msgText.classList.add('msg-text');
+            msgText.innerText = msgData;
+
+            msgContent.appendChild(ownerPhoto);
+            msgContent.appendChild(msgText);
+
+        } else if(type === 'image') {
+
+            let image = document.createElement('img');
+            image.classList.add('msg-image');
+            image.src = msgData;
+
+            msgContent.appendChild(ownerPhoto);
+            msgContent.appendChild(image);
+
+        }
+
+        let msgBlock = document.createElement('div');
+        msgBlock.classList.add('msg-block');
+        if(lastMsgSender === id) msgBlock.classList.add('msg-block-close');
+        msgBlock.appendChild(ownerName);
+        msgBlock.appendChild(msgContent);
+
+        if(lastMsgSender !== id) lastMsgSender = id;
+        msgBox.appendChild(msgBlock);
+        msgBox.scrollTop = msgBox.scrollHeight;
+
+    }
+}
+
 export {
-    addNotification
+    addNotification,
+    addMsg
 }
