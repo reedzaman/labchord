@@ -1,3 +1,5 @@
+let lastMsgSender = '';
+
 function addNotification(msg){
     if(document.getElementsByClassName('main-box')[0].style.display === 'flex'){
         let notification = document.createElement('div');
