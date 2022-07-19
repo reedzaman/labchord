@@ -64,7 +64,49 @@ function addMsg(msgData, name, id, type){
     }
 }
 
+function addOwnMsg(msgData, type){
+
+    if(document.getElementsByClassName('main-box')[0].style.display === 'flex'){
+
+        let msgBox = document.getElementsByClassName('msg-box')[0];
+
+        let msgContent = document.createElement('div');
+        msgContent.classList.add('msg-content');
+
+        if(type === 'text'){
+
+            let msgText = document.createElement('div');
+            msgText.classList.add('msg-text');
+            msgText.innerText = msgData;
+
+            msgContent.appendChild(msgText);
+
+        } else if(type === 'image') {
+
+            let image = document.createElement('img');
+            image.classList.add('msg-image');
+            image.src = msgData;
+
+            msgContent.appendChild(image);
+
+        }
+
+        let msgBlock = document.createElement('div');
+        msgBlock.classList.add('msg-block');
+        msgBlock.classList.add('msg-block-own');
+        if(lastMsgSender === 'own') msgBlock.classList.add('msg-block-close');
+        msgBlock.appendChild(msgContent);
+
+        lastMsgSender = 'own';
+        msgBox.appendChild(msgBlock);
+        msgBox.scrollTop = msgBox.scrollHeight;
+
+    }
+
+}
+
 export {
     addNotification,
-    addMsg
+    addMsg,
+    addOwnMsg
 }
