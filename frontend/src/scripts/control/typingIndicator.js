@@ -1,6 +1,7 @@
-import {socket} from './client.js';
+import { socket } from './client.js';
 
 let writing = false;
+let msgInput = document.getElementById('textInputBox');
 
 // checks if user is writing
 // ... if writing, emits 'typing' once (no repeating emitting)
@@ -40,3 +41,4 @@ msgInput.addEventListener('focusin', () => {
         }
     }
 });
+

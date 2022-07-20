@@ -48,6 +48,6 @@ function toggleTheme(){
 }
 
 export {
-    typing,
+    updateTyping,
     toggleTheme
 }
