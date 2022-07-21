@@ -1,0 +1,1 @@
+{"mappings":"AAAA,IAAIA,SAAWC,SAASC,eAAe,YACvCF,SAASG","sources":["src/scripts/index.js"],"sourcesContent":["let username = document.getElementById('username');\nusername.focus();\n"],"names":["username","document","getElementById","focus"],"version":3,"file":"index.bec974aa.js.map"}

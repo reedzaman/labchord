@@ -5,12 +5,12 @@ import { toggleTheme } from '../view/update.js';
 
 let imageBuffer = '';
 let username = 'Anonymous';
-const form = document.querySelector('form')
+const msgForm = document.getElementById('msgForm');
 const msgInput = document.getElementById('textInputBox');
 const imageInput = document.querySelector('input[type="file"]');
 
 
-document.getElementById('sendName').addEventListener("click", () => {
+document.getElementById('sendNameForm').addEventListener("submit", () => {
     let input = document.getElementById('username').value;
     let profileImg = document.getElementById('profileImg');
     let profileName = document.getElementById('profileName');
@@ -32,12 +32,14 @@ document.getElementById('sendName').addEventListener("click", () => {
 
 document.querySelector('#theme').addEventListener('click', () => { toggleTheme() });
 
-form.addEventListener('submit', event => {
+msgForm.addEventListener('submit', event => {
 
-    if(imageBuffer === ""){
-        addOwnMsg(msgInput.value, 'text');
-        socket.emit('send', msgInput.value, 'text');
-        msgInput.value = '';
+    if(imageBuffer === ''){
+        if(msgInput.value.length > 0){
+            addOwnMsg(msgInput.value, 'text');
+            socket.emit('send', msgInput.value, 'text');
+            msgInput.value = '';
+        }
     } 
     else{
         addOwnMsg(imageBuffer, 'image');
