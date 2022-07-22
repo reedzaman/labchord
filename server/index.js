@@ -1,8 +1,9 @@
 const { Server } = require("socket.io");
 
 let usernames = {}
+let port = process.env.PORT || 3000;
 
-const io = new Server(3000, {
+const io = new Server(port, {
     cors: {
         origin: "http://127.0.0.1:8080",
         methods: ["GET", "POST"]
