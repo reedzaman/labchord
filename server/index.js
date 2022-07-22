@@ -5,7 +5,7 @@ let port = process.env.PORT || 3000;
 
 const io = new Server(port, {
     cors: {
-        origin: "https://reedzaman.github.io/labchord/"
+        origin: "*"
     }
 });
 
