@@ -3,7 +3,11 @@ const { Server } = require("socket.io");
 let usernames = {}
 let port = process.env.PORT || 3000;
 
-const io = new Server(port);
+const io = new Server(port, {
+    cors: {
+        origin: "https://reedzaman.github.io/"
+    }
+});
 
 io.on("connection", (socket) => {
     const id = socket.id.replace(/[^a-zA-Z0-9]/g, '').replace(/^[0-9]+/, '');;
