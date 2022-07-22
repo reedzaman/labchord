@@ -225,11 +225,25 @@ body{
     width: 10%;
     height: 100%;
     display: none;
+    position: relative;
 }
 
 #imagePreview{
     height: 100%;
     width: 100%;
+}
+
+#imageClose{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(256, 256, 256, 0.8);
+    cursor: pointer;
 }
 
 label{

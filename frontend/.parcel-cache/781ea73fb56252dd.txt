@@ -1,9 +1,9 @@
-4487
+4501
 78/home/reedzaman/Desktop/LabChord/frontend/src/scripts/control/eventHandlers.js1658306624506273324 0
 58/home/reedzaman/Desktop/LabChord/frontend/src/scripts/view1658306862357248226 1
-56/home/reedzaman/Desktop/LabChord/frontend/src/index.html1658425840149456580 0
-52/home/reedzaman/Desktop/LabChord/frontend/src/styles1658426303549191929 1
-45/home/reedzaman/Desktop/LabChord/frontend/src1658425840149456580 1
+56/home/reedzaman/Desktop/LabChord/frontend/src/index.html1658495669446441749 0
+52/home/reedzaman/Desktop/LabChord/frontend/src/styles1658495957944944965 1
+45/home/reedzaman/Desktop/LabChord/frontend/src1658495669446441749 1
 68/home/reedzaman/Desktop/LabChord/frontend/dist/index.ba6cd904.js.map1658422802836102265 0
 64/home/reedzaman/Desktop/LabChord/frontend/dist/index.4b7ae9e1.js1658421189422508117 0
 69/home/reedzaman/Desktop/LabChord/frontend/dist/index.546a36ab.css.map1658425509564384349 0
@@ -13,18 +13,21 @@
 64/home/reedzaman/Desktop/LabChord/frontend/dist/index.5ef74de4.js1658421445855261133 0
 64/home/reedzaman/Desktop/LabChord/frontend/dist/index.daef8764.js1658421727163372707 0
 65/home/reedzaman/Desktop/LabChord/frontend/dist/index.f8e69611.css1658424916869119423 0
+68/home/reedzaman/Desktop/LabChord/frontend/dist/index.7fbaf4c4.js.map1658496335066503717 0
 68/home/reedzaman/Desktop/LabChord/frontend/dist/index.f7def00e.js.map1658473631971889226 0
 68/home/reedzaman/Desktop/LabChord/frontend/dist/index.640f0290.js.map1658421681691285168 0
 64/home/reedzaman/Desktop/LabChord/frontend/dist/index.640f0290.js1658421681683285175 0
 65/home/reedzaman/Desktop/LabChord/frontend/dist/index.5304b18f.css1658425563954686073 0
-57/home/reedzaman/Desktop/LabChord/frontend/dist/index.html1658473631959888367 0
+68/home/reedzaman/Desktop/LabChord/frontend/dist/index.a98509df.js.map1658496187624423504 0
+57/home/reedzaman/Desktop/LabChord/frontend/dist/index.html1658496471752999860 0
 68/home/reedzaman/Desktop/LabChord/frontend/dist/index.d12d7a62.js.map1658386842416828863 0
 65/home/reedzaman/Desktop/LabChord/frontend/dist/index.fe034726.css1658386842404828539 0
 64/home/reedzaman/Desktop/LabChord/frontend/dist/index.d12d7a62.js1658386842404828539 0
 68/home/reedzaman/Desktop/LabChord/frontend/dist/index.daef8764.js.map1658421727171372745 0
+65/home/reedzaman/Desktop/LabChord/frontend/dist/index.0b79c133.css1658495008501495155 0
 64/home/reedzaman/Desktop/LabChord/frontend/dist/index.7dc1a1b0.js1658387607989804137 0
 68/home/reedzaman/Desktop/LabChord/frontend/dist/index.4b7ae9e1.js.map1658421189426508364 0
-46/home/reedzaman/Desktop/LabChord/frontend/dist1658473631971889226 1
+46/home/reedzaman/Desktop/LabChord/frontend/dist1658496471764999834 1
 73/home/reedzaman/Desktop/LabChord/frontend/node_modules/acorn/CHANGELOG.md1658383728757351659 0
 75/home/reedzaman/Desktop/LabChord/frontend/node_modules/acorn/dist/acorn.mjs1658383728869354224 0
 74/home/reedzaman/Desktop/LabChord/frontend/node_modules/acorn/dist/acorn.js1658383728701350375 0
@@ -163,7 +166,7 @@
 101/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb.c1658383729229362466 0
 105/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/chacha8.h1658383729409366584 0
 103/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest.c1658383729265363289 0
-79/home/reedzaman/Desktop/LabChord/frontend/src/scripts/control/eventListeners.js1658422684261713243 0
+79/home/reedzaman/Desktop/LabChord/frontend/src/scripts/control/eventListeners.js1658496461181029103 0
 104/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/Doxyfile1658383728729351017 0
 103/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/tooltag1658383728885354592 0
 106/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_dump.11658383728913355232 0
@@ -206,6 +209,7 @@
 81/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/util/RangeIterable.js1658383729485368322 0
 107/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/node_modules/node-addon-api/tools/check-napi.js1658383728841353583 0
 98/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/node_modules/node-addon-api/LICENSE.md1658383728905355049 0
+69/home/reedzaman/Desktop/LabChord/frontend/dist/index.47d86569.css.map1658495906185520136 0
 101/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/node_modules/node-addon-api/noexcept.gypi1658383728477345243 0
 108/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/node_modules/node-addon-api/package-support.json1658383728881354499 0
 96/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/node_modules/node-addon-api/index.js1658383728877354408 0
@@ -335,6 +339,7 @@
 89/home/reedzaman/Desktop/LabChord/frontend/node_modules/htmlnano/lib/modules/minifyUrls.js1658383728817353033 0
 101/home/reedzaman/Desktop/LabChord/frontend/node_modules/node-gyp-build-optional-packages/build-test.js1658383728397343410 0
 100/home/reedzaman/Desktop/LabChord/frontend/node_modules/htmlnano/lib/modules/removeEmptyAttributes.js1658383728849353767 0
+64/home/reedzaman/Desktop/LabChord/frontend/dist/index.a98509df.js1658496187616422960 0
 97/home/reedzaman/Desktop/LabChord/frontend/node_modules/htmlnano/lib/modules/collapseWhitespace.js1658383728613348359 0
 75/home/reedzaman/Desktop/LabChord/frontend/node_modules/htmlnano/lib/modules1658383728889354683 1
 78/home/reedzaman/Desktop/LabChord/frontend/node_modules/htmlnano/lib/helpers.js1658383728701350375 0
@@ -525,6 +530,7 @@
 77/home/reedzaman/Desktop/LabChord/frontend/node_modules/domelementtype/LICENSE1658383728337342034 0
 69/home/reedzaman/Desktop/LabChord/frontend/node_modules/domelementtype1658383728585347718 1
 79/home/reedzaman/Desktop/LabChord/frontend/node_modules/picocolors/picocolors.js1658383728389343227 0
+65/home/reedzaman/Desktop/LabChord/frontend/dist/index.47d86569.css1658495906173519345 0
 98/home/reedzaman/Desktop/LabChord/frontend/node_modules/@babel/highlight/node_modules/chalk/license1658383728437344326 0
 73/home/reedzaman/Desktop/LabChord/frontend/node_modules/picocolors/LICENSE1658383728333341943 0
 65/home/reedzaman/Desktop/LabChord/frontend/node_modules/picocolors1658383728477345243 1
@@ -680,7 +686,7 @@
 93/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/css-sel3.js1658383729477368140 0
 98/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/dispatchevent.js1658383729545369695 0
 100/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/css-transitions.js1658383729493368505 0
-71/home/reedzaman/Desktop/LabChord/frontend/src/scripts/control/client.js1658473622459205164 0
+71/home/reedzaman/Desktop/LabChord/frontend/src/scripts/control/client.js1658479109968005405 0
 95/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/webworkers.js1658383729773374911 0
 69/home/reedzaman/Desktop/LabChord/frontend/node_modules/lmdb/README.md1658383729525369238 0
 88/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/sni.js1658383729729373905 0
@@ -1786,6 +1792,7 @@
 102/home/reedzaman/Desktop/LabChord/frontend/node_modules/@jridgewell/set-array/dist/set-array.umd.js.map1658383728477345243 0
 84/home/reedzaman/Desktop/LabChord/frontend/node_modules/dom-serializer/lib/index.d.ts1658383728761351750 0
 134/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias/package.json1658383729477368140 0
+64/home/reedzaman/Desktop/LabChord/frontend/dist/index.7fbaf4c4.js1658496335034504377 0
 128/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias/foo.js1658383728997357157 0
 106/home/reedzaman/Desktop/LabChord/frontend/node_modules/posthtml/node_modules/posthtml-parser/dist/index.js1658383728437344326 0
 85/home/reedzaman/Desktop/LabChord/frontend/node_modules/css-what/lib/commonjs/index.js1658383728433344235 0
@@ -1869,6 +1876,7 @@
 86/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/regions/AE.js1658383728685350009 0
 102/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/package-manager/src/NodeResolverBase.js1658383729005357341 0
 82/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/events/lib/types.js1658383728625348633 0
+69/home/reedzaman/Desktop/LabChord/frontend/dist/index.0b79c133.css.map1658495008513495846 0
 95/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/filesystem.js1658383729593370793 0
 123/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/core/test/fixtures/targets-default-distdir-none/package.json1658383729585370610 0
 91/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/package-manager/src/utils.js1658383729033357982 0
@@ -2364,7 +2372,7 @@
 100/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/arrow-functions.js1658383728949356057 0
 100/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/reporter-dev-server/src/types.js.flow1658383728433344235 0
 84/home/reedzaman/Desktop/LabChord/frontend/node_modules/source-map-support/LICENSE.md1658383728601348084 0
-62/home/reedzaman/Desktop/LabChord/frontend/src/styles/style.css1658426303549191929 0
+62/home/reedzaman/Desktop/LabChord/frontend/src/styles/style.css1658495957940944699 0
 103/home/reedzaman/Desktop/LabChord/frontend/node_modules/xmlhttprequest-ssl/tests/test-request-methods.js1658245229540523305 0
 67/home/reedzaman/Desktop/LabChord/frontend/node_modules/yaml/util.js1658383729025357799 0
 89/home/reedzaman/Desktop/LabChord/frontend/node_modules/domutils/lib/manipulation.d.ts.map1658383728717350741 0
@@ -2548,7 +2556,7 @@
 99/home/reedzaman/Desktop/LabChord/frontend/node_modules/terser/lib/compress/drop-side-effect-free.js1658383729085359171 0
 120/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/transformer-react-refresh-wrap/src/helpers/.eslintrc.json1658383728681349917 0
 93/home/reedzaman/Desktop/LabChord/frontend/node_modules/@swc/helpers/lib/_wrap_native_super.js1658383729081359080 0
-61/home/reedzaman/Desktop/LabChord/frontend/src/scripts/control1658473622459205164 1
+61/home/reedzaman/Desktop/LabChord/frontend/src/scripts/control1658496461185029090 1
 110/home/reedzaman/Desktop/LabChord/frontend/node_modules/@jridgewell/trace-mapping/dist/types/trace-mapping.d.ts1658383728845353675 0
 91/home/reedzaman/Desktop/LabChord/frontend/node_modules/css-what/lib/commonjs/stringify.d.ts1658383728861354041 0
 117/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/core/test/fixtures/invalid-source-missing/package.json1658383729557369970 0
@@ -2719,6 +2727,7 @@
 94/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/xhtmlsmil.js1658383729773374911 0
 82/home/reedzaman/Desktop/LabChord/frontend/node_modules/supports-color/package.json1658383728433344235 0
 83/home/reedzaman/Desktop/LabChord/frontend/node_modules/@socket.io/component-emitter1658245229532523964 1
+69/home/reedzaman/Desktop/LabChord/frontend/dist/index.7bba7105.css.map1658495677026903249 0
 136/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias/foo.js1658383729001357250 0
 84/home/reedzaman/Desktop/LabChord/frontend/node_modules/utility-types/dist/index.d.ts1658383728733351108 0
 101/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/getcomputedstyle.js1658383729609371159 0
@@ -3308,8 +3317,10 @@
 91/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/codeframe/test/fixtures/a.js1658383728433344235 0
 86/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/regions/NF.js1658383729681372807 0
 78/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/watcher/LICENSE1658383728345342218 0
+65/home/reedzaman/Desktop/LabChord/frontend/dist/index.45e67ad8.css1658496187616422960 0
 111/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/watcher/prebuilds/win32-x64/node.napi.glibc.node1658383729285363747 0
 93/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/watcher/prebuilds/darwin-arm641658383728937355783 1
+69/home/reedzaman/Desktop/LabChord/frontend/dist/index.45e67ad8.css.map1658496187624423504 0
 93/home/reedzaman/Desktop/LabChord/frontend/node_modules/htmlnano/lib/modules/sortAttributes.js1658383728889354683 0
 86/home/reedzaman/Desktop/LabChord/frontend/node_modules/css-select/lib/compile.d.ts.map1658383728777352117 0
 76/home/reedzaman/Desktop/LabChord/frontend/node_modules/mdn-data/css/index.js1658383728441344418 0
@@ -3457,6 +3468,7 @@
 93/home/reedzaman/Desktop/LabChord/frontend/node_modules/chrome-trace-event/dist/trace-event.js1658383728377342951 0
 98/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/optimizer-svgo/src/SVGOOptimizer.js1658383728469345060 0
 83/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/packager-svg/LICENSE1658383728349342309 0
+64/home/reedzaman/Desktop/LabChord/frontend/dist/index.1a5fa051.js1658496471752999860 0
 79/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/packager-svg/src1658383728437344326 1
 84/home/reedzaman/Desktop/LabChord/frontend/node_modules/terser/node_modules/commander1658383728545346800 1
 95/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/reporter-dev-server/package.json1658383728981356791 0
@@ -3686,6 +3698,7 @@
 89/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/hevc.js1658383729613371251 0
 95/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/diagnostic/test/markdown.test.js1658383728561347168 0
 94/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/transformer-babel/lib/config.js1658383728617348450 0
+65/home/reedzaman/Desktop/LabChord/frontend/dist/index.7bba7105.css1658495677018902760 0
 100/home/reedzaman/Desktop/LabChord/frontend/node_modules/caniuse-lite/data/features/text-decoration.js1658383729741374179 0
 92/home/reedzaman/Desktop/LabChord/frontend/node_modules/utility-types/dist/utility-types.d.ts1658383728773352025 0
 92/home/reedzaman/Desktop/LabChord/frontend/node_modules/@parcel/transformer-json/package.json1658383728489345518 0
@@ -4005,6 +4018,7 @@
 72/home/reedzaman/Desktop/LabChord/frontend/node_modules/commander/typings1658383728681349917 1
 83/home/reedzaman/Desktop/LabChord/frontend/node_modules/commander/typings/index.d.ts1658383728713350651 0
 84/home/reedzaman/Desktop/LabChord/frontend/node_modules/@lezer/common/dist/index.d.ts1658383728669349643 0
+68/home/reedzaman/Desktop/LabChord/frontend/dist/index.1a5fa051.js.map1658496471760999843 0
 94/home/reedzaman/Desktop/LabChord/frontend/node_modules/engine.io-client/build/esm/transport.js1658245229624516395 0
 73/home/reedzaman/Desktop/LabChord/frontend/node_modules/is-json/.npmignore1658383728357342492 0
 77/home/reedzaman/Desktop/LabChord/frontend/node_modules/commander/package.json1658383728545346800 0

@@ -32,6 +32,17 @@ document.getElementById('sendNameForm').addEventListener("submit", () => {
 
 document.querySelector('#theme').addEventListener('click', () => { toggleTheme() });
 
+document.querySelector('#imageClose').addEventListener('click', () => {
+    imageBuffer = '';
+    document.querySelector("#imagePreview").src = "";
+    document.querySelector("#imagePreviewWrapper").style.display = "none";
+    document.getElementById('textInputBox').removeAttribute('disabled');
+    document.getElementById('imageInputButton').value = '';
+    document.getElementById('textInputBox').style.width = '75%';
+    document.getElementById('textInputBox').focus();
+
+});
+
 msgForm.addEventListener('submit', event => {
 
     if(imageBuffer === ''){
