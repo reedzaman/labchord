@@ -92,7 +92,7 @@ imageInput.addEventListener('change', (e) => {
 
         document.getElementById('imagePreview').src = reader.result;
         document.getElementById('imagePreviewWrapper').style.display = 'unset';
-        document.getElementById('textInputBox').style.width = '65%';
+        document.getElementById('textInputBox').style.width = window.innerWidth <= 600 ? '40%' : '65%';
         document.getElementById('textInputBox').disabled = true;
     }
     reader.readAsDataURL(imageInput.files[0]);
