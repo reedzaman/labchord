@@ -12,7 +12,7 @@ io.on("connection", (socket) => {
     socket.on('send', (msgData, type) => {
 
         if(type === 'text'){
-            if(bufferMsg.msgs.length < 5){
+            if(bufferMsg.msgs.length < 30){
                 bufferMsg.msgs.push({
                     senderName: usernames[id],
                     senderId: id,
