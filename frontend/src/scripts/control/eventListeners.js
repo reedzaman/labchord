@@ -100,6 +100,12 @@ imageInput.addEventListener('change', (e) => {
 
 }, false);
 
-textInputBox.addEventListener('keypress', (event) => {
-    if(event.key === 'Enter') handleSubmission();
-})
+//textInputBox.addEventListener('keydown', (event) => {
+    //if(event.key === 'Enter') {
+        //handleSubmission();
+    //}
+//})
+
+export {
+    handleSubmission
+}

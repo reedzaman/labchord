@@ -1,3 +1,5 @@
+import loading from '../../assets/typing.gif';
+
 function updateTyping(typing){
     let typingInd = document.getElementsByClassName('typing-indicator')[0];
     let typingArr = Object.values(typing);
@@ -27,7 +29,7 @@ function updateTyping(typing){
 
     if(str !== ''){
         let img = document.createElement('img');
-        img.src = './assets/typing.gif';
+        img.src = loading;
         img.style.width = '30px';
         img.style.height = '15px';
         img.style.marginTop = 'auto';

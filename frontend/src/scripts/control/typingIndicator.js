@@ -1,4 +1,5 @@
 import { socket } from './client.js';
+import { handleSubmission } from './eventListeners';
 
 let writing = false;
 let msgInput = document.getElementById('textInputBox');
@@ -6,7 +7,11 @@ let msgInput = document.getElementById('textInputBox');
 // checks if user is writing
 // ... if writing, emits 'typing' once (no repeating emitting)
 // ... if not, emits 'stoppedTyping' once (no repeating emitting)
-document.addEventListener('keyup', ()=>{
+document.addEventListener('keyup', (event)=>{
+    if(event.key === 'Enter') {
+        handleSubmission();
+    }
+
     if(msgInput.value.length > 0){
         if(!writing){
             writing = true;
@@ -28,7 +33,6 @@ msgInput.addEventListener('focusout', () => {
         writing = false;
         socket.emit('stoppedTyping');
     }
-
 })
 
 // if the focus returns to the input box (previously at writing state),
@@ -41,4 +45,3 @@ msgInput.addEventListener('focusin', () => {
         }
     }
 });
-
