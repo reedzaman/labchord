@@ -12,7 +12,6 @@ function updateTyping(typing){
     }
 
     let str = typingArr.toString();
-    console.log(typingArr);
     str = str.toString().replace(/,/g, ', ');
     console.log(str);
 

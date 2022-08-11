@@ -9,8 +9,27 @@ const msgForm = document.getElementById('msgForm');
 const msgInput = document.getElementById('textInputBox');
 const imageInput = document.querySelector('input[type="file"]');
 
+function handleSubmission(){
+    if(imageBuffer === ''){
+        if(msgInput.value.length > 0){
+            addOwnMsg(msgInput.value, 'text');
+            socket.emit('send', msgInput.value, 'text');
+            msgInput.value = '';
+        }
+    } 
+    else{
+        addOwnMsg(imageBuffer, 'image');
+        socket.emit('send', imageBuffer, 'image');
+        imageBuffer = '';
+        document.getElementById('imageInputButton').value = '';
+        document.getElementById('textInputBox').style.width = '75%';
+        document.getElementById('textInputBox').removeAttribute('disabled');
+        document.getElementById('textInputBox').focus();
+        document.getElementById('imagePreviewWrapper').style.display = 'none';
+    } 
+}
 
-document.getElementById('sendNameForm').addEventListener("submit", () => {
+document.getElementById('sendNameForm').addEventListener("submit",() => {
     let input = document.getElementById('username').value;
     let profileImg = document.getElementById('profileImg');
     let profileName = document.getElementById('profileName');
@@ -44,25 +63,7 @@ document.querySelector('#imageClose').addEventListener('click', () => {
 });
 
 msgForm.addEventListener('submit', event => {
-
-    if(imageBuffer === ''){
-        if(msgInput.value.length > 0){
-            addOwnMsg(msgInput.value, 'text');
-            socket.emit('send', msgInput.value, 'text');
-            msgInput.value = '';
-        }
-    } 
-    else{
-        addOwnMsg(imageBuffer, 'image');
-        socket.emit('send', imageBuffer, 'image');
-        imageBuffer = '';
-        document.getElementById('imageInputButton').value = '';
-        document.getElementById('textInputBox').style.width = '75%';
-        document.getElementById('textInputBox').removeAttribute('disabled');
-        document.getElementById('textInputBox').focus();
-        document.getElementById('imagePreviewWrapper').style.display = 'none';
-    } 
-
+    handleSubmission();
 });
 
 imageInput.addEventListener('change', (e) => {
@@ -98,3 +99,7 @@ imageInput.addEventListener('change', (e) => {
     reader.readAsDataURL(imageInput.files[0]);
 
 }, false);
+
+textInputBox.addEventListener('keypress', (event) => {
+    if(event.key === 'Enter') handleSubmission();
+})

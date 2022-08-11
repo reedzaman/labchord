@@ -1,5 +1,5 @@
 import { socket } from "./client.js";
-import { addMsg, addNotification } from "../view/add.js";
+import { addMsg, addNotification} from "../view/add.js";
 import { updateTyping } from "../view/update.js";
 
 let typing = {};
@@ -24,4 +24,13 @@ socket.on('stoppedTyping', (id, name) => {
 
 socket.on('notification', (msg) => {
     addNotification(msg);
+});
+
+socket.on('buffer', (data) => {
+    try{
+        let msgLoad = JSON.parse(data);
+        msgLoad.msgs.forEach( item => addMsg(item.content, item.senderName, item.senderId, item.type));
+    } catch(e) {
+        console.log(e);
+    }
 });

@@ -1,3 +1,33 @@
+//let bufferMsg = {
+    //msgs: [
+        //{
+            //senderName: "reed",
+            //senderId: "1",
+            //content: "Hello there!",
+            //type: "text"
+        //},
+        //{
+            //senderName: "Joy",
+            //senderId: "2",
+            //content: "Hey this is me joy",
+            //type: "text"
+        //},
+        //{
+            //senderName: "Reed",
+            //senderId: "1",
+            //content: "Kire ki obosstha?",
+            //type: "text"
+        //},
+        //{
+            //senderName: "reed",
+            //senderId: "3",
+            //content: "kire ma*ira",
+            //type: "text"
+        //}
+    //],
+    //size: 0
+//}
+
 let lastMsgSender = '';
 
 function addNotification(msg){
@@ -106,6 +136,14 @@ function addOwnMsg(msgData, type){
     }
 
 }
+
+//function loadBufferMessages(load){
+    //load.msgs.forEach( item => addMsg(item.content, item.senderName, item.senderId, item.type));
+//}
+
+//document.getElementById('loadMsg').addEventListener('click', () => {
+    //loadBufferMessages(bufferMsg);
+//})
 
 export {
     addNotification,
