@@ -41,11 +41,20 @@ function updateTyping(typing){
 function toggleTheme(){
     let themeIcon = document.getElementById('themeIcon');
     let body = document.getElementsByTagName('body')[0];
+    let emoji = document.getElementById('emo_picker');
 
     body.classList.toggle('dark');
     if(themeIcon.innerText === 'light_mode')
         themeIcon.innerText = 'dark_mode'
     else themeIcon.innerText = 'light_mode';
+
+    if(emoji.classList.contains('dark')){
+        emoji.classList.remove('dark');
+        emoji.classList.add('light');
+    } else {
+        emoji.classList.remove('light');
+        emoji.classList.add('dark');
+    }
 }
 
 export {

@@ -49,7 +49,9 @@ document.getElementById('sendNameForm').addEventListener("submit",() => {
     document.getElementsByClassName('msg-input')[0].focus();
 });
 
-document.querySelector('#theme').addEventListener('click', () => { toggleTheme() });
+document.querySelector('#theme').addEventListener('click', () => { 
+    toggleTheme();
+});
 
 document.querySelector('#imageClose').addEventListener('click', () => {
     imageBuffer = '';
@@ -59,7 +61,28 @@ document.querySelector('#imageClose').addEventListener('click', () => {
     document.getElementById('imageInputButton').value = '';
     document.getElementById('textInputBox').style.width = '75%';
     document.getElementById('textInputBox').focus();
+});
 
+document.addEventListener('click', event => {
+    let id = event.target.id;
+    let emojiPicker = document.querySelector('#emoji-picker-wrapper');
+
+    if(id === 'showemoji' || id === 'showemoji_icon'){
+
+        let dis = document.querySelector('#emoji-picker-wrapper').style.display;
+
+        if(dis === 'none' || dis === '')
+            document.querySelector('#emoji-picker-wrapper').style.display = 'flex';
+        else 
+            document.querySelector('#emoji-picker-wrapper').style.display = 'none';
+
+    } else if( id !== 'emo_picker' ){
+            document.querySelector('#emoji-picker-wrapper').style.display = 'none';
+    }
+});
+
+document.querySelector('emoji-picker').addEventListener('emoji-click', (event) => {
+    document.querySelector('textarea').value = `${document.querySelector('textarea').value}${event.detail.unicode}`;
 });
 
 msgForm.addEventListener('submit', event => {
@@ -99,12 +122,6 @@ imageInput.addEventListener('change', (e) => {
     reader.readAsDataURL(imageInput.files[0]);
 
 }, false);
-
-//textInputBox.addEventListener('keydown', (event) => {
-    //if(event.key === 'Enter') {
-        //handleSubmission();
-    //}
-//})
 
 export {
     handleSubmission
